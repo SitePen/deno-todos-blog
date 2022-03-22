@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.130.0/",
+
+    "oak": "https://deno.land/x/oak@v10.4.0/mod.ts",
+    "sqlite": "https://deno.land/x/sqlite@v3.3.0/mod.ts",
+    "mock_fetch": "https://deno.land/x/mock_fetch@0.3.0/mod.ts",
+
+    "react": "https://esm.sh/react@17.0.2?dev&pin=v68",
+    "react-dom": "https://esm.sh/react-dom@17.0.2?dev&pin=v68",
+    "react-dom-server": "https://esm.sh/react-dom@17.0.2/server?dev&pin=v68",
+
+    "@testing-library/react": "https://esm.sh/@testing-library/react@12.1.4?dev&pin=v68",
+    "@testing-library/dom": "https://esm.sh/@testing-library/dom@8.11.1?dev&pin=v68",
+    "@testing-library/user-event": "https://esm.sh/@testing-library/user-event@13.5.0?dev&pin=v68",
+    "jsdom": "https://jspm.dev/npm:jsdom-deno@19.0.2",
+
+    "https://cdn.esm.sh@types/": "https://cdn.esm.sh/@types/"
+  }
+}

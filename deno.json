@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.unstable"
+    ]
+  },
+  "importMap": "import_map.json",
+  "tasks": {
+    "start": "deno run --unstable --allow-read --allow-write --allow-net --no-check=remote mod.ts",
+    "dev": "deno run --unstable --allow-read --allow-write --allow-net --import-map=import_map_dev.json --watch --no-clear-screen --no-check mod.ts dev",
+    "compile": "deno compile --unstable --allow-read --allow-write --allow-net --no-check --import-map=import_map.json mod.ts",
+    "test": "deno test --unstable --allow-env --allow-net --allow-read --allow-write --no-check=remote --import-map=import_map_dev.json --location=http://localhost"
+  }
+}

@@ -1,0 +1,23 @@
+.App {
+  --list-font-size: 25px;
+  --list-width: calc(var(--list-font-size) * 18);
+  --item-height: calc(var(--list-font-size) * 2.5);
+  --item-padding: calc(var(--list-font-size) / 3);
+  --border-color: #ccc;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.App h1 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.App h1 img {
+  height: 36px;
+}

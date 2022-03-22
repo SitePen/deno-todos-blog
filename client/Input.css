@@ -1,0 +1,12 @@
+.Input {
+  width: var(--list-width);
+  height: var(--item-height);
+  border: solid 1px var(--border-color);
+  box-sizing: border-box;
+  font-size: var(--list-font-size);
+  padding: 0 var(--item-padding);
+}
+
+.Input::placeholder {
+  color: var(--border-color);
+}

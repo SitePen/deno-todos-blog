@@ -1,0 +1,25 @@
+.TodoItem {
+  width: var(--list-width);
+  height: var(--item-height);
+  display: flex;
+  align-items: center;
+  border: solid 1px var(--border-color);
+  box-sizing: border-box;
+  padding: 0 var(--item-padding);
+  font-size: var(--list-font-size);
+  gap: var(--item-padding);
+  background: white;
+}
+
+.TodoItem-label {
+  flex-grow: 1;
+}
+
+.TodoItem-close {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.TodoItem:hover .TodoItem-close {
+  visibility: visible;
+}
